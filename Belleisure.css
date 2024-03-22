@@ -233,6 +233,8 @@ overflow: hidden;
  height:40vw;
  object-fit: cover;
  position: relative;
+ border-bottom-left-radius: .75rem;
+ border-top-left-radius: .75rem ;
 }
 
 button:hover{
@@ -274,7 +276,8 @@ button:hover{
     width:40vw;
     height:40vw;
     object-fit: cover;
-
+    border-bottom-right-radius: .75rem;
+    border-top-right-radius: .75rem ;
    }
 .text2 {
     padding: 0 0 0 4vw;
@@ -349,6 +352,8 @@ overflow: hidden;
  width:40vw;
  height:40vw;
  object-fit: cover;
+ border-bottom-left-radius: .75rem;
+ border-top-left-radius: .75rem ;
 }
 
 .ContainerImg4{
@@ -379,6 +384,8 @@ overflow: hidden;
     width:40vw;
     height:40vw;
     object-fit: cover;
+    border-bottom-right-radius: .75rem;
+    border-top-right-radius: .75rem ;
    }
 .text4 {
     padding: 0 0 0 4vw;
@@ -403,7 +410,7 @@ overflow: hidden;
     padding: 2vh 3vw 2vh 3vw;
 }
 
-:root {
+/* :root {
     --slider-width: 80vw;
 }
 .wrapper {
@@ -413,6 +420,7 @@ overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 0.3s;
 }
 .slider {
     position: relative;
@@ -482,4 +490,4 @@ overflow: hidden;
     font-size: 3vw;
 
 }
-
+ */
